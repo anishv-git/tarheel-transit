@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+*.local
+
+# Build output
+dist/
+build/
+
+# Runtime cache
+backend/cache/
+
+# OS / editor
+.DS_Store
+*.log
