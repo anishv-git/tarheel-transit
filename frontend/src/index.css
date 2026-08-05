@@ -1,0 +1,19 @@
+/* Tailwind loaded via CDN in index.html */
+
+/* Mapbox popup overrides */
+.mapboxgl-popup-content {
+  border-radius: 10px !important;
+  padding: 10px 14px !important;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+  font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif !important;
+}
+.mapboxgl-popup-close-button {
+  font-size: 16px !important;
+  color: #94a3b8 !important;
+  padding: 4px 6px !important;
+}
+.mapboxgl-ctrl-group {
+  border-radius: 10px !important;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15) !important;
+}
