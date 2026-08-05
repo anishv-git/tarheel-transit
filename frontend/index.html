@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TarHeel Transit — UNC Chapel Hill</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚌</text></svg>" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      body { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', sans-serif; background: #F4F8FC; }
+      #root { height: 100vh; overflow-y: auto; }
+      .mapboxgl-popup-content {
+        border-radius: 10px !important; padding: 10px 14px !important;
+        box-shadow: 0 4px 16px rgba(0,0,0,0.12) !important;
+        font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif !important;
+      }
+      .mapboxgl-ctrl-group { border-radius: 10px !important; overflow: hidden; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
